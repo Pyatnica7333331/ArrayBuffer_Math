@@ -1,0 +1,37 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "jest",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/pyatnica7333331/oop_class#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyatnica7333331/oop_class.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.2.0",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3"
+  }
+}
