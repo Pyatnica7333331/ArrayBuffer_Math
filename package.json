@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "test": "jest",
-    "build": "babel src -d dist",
+    "build": "webpack --mode production",
     "lint": "eslint ."
   },
   "author": "",
@@ -27,6 +27,8 @@
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.2",
     "jest": "^27.2.0",
+    "mini-css-extract-plugin": "^2.3.0",
+    "style-loader": "^3.2.1",
     "webpack": "^5.52.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.2.1"
