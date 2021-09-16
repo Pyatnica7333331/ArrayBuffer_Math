@@ -1,12 +1,15 @@
 /* eslint-disable no-undef */
 import Swordsman from '../Characters/Swordsman';
 
-test('Valid', () => {
-  const character = new Swordsman('Hero');
-  expect(character.name).toBe('Hero');
-  expect(character.type).toBe('Swordsman');
-  expect(character.attack).toBe(40);
-  expect(character.defence).toBe(10);
-  expect(character.health).toBe(100);
-  expect(character.level).toBe(1);
+test('Creation completed successfully', () => {
+  const swordsman = new Swordsman('Hero');
+  const character = {
+    name: 'Hero',
+    type: 'Swordsman',
+    attack: 40,
+    defence: 10,
+    health: 100,
+    level: 1,
+  };
+  expect(swordsman).toEqual(character);
 });

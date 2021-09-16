@@ -1,12 +1,15 @@
 /* eslint-disable no-undef */
 import Undead from '../Characters/Undead';
 
-test('Valid', () => {
-  const character = new Undead('Hero');
-  expect(character.name).toBe('Hero');
-  expect(character.type).toBe('Undead');
-  expect(character.attack).toBe(25);
-  expect(character.defence).toBe(25);
-  expect(character.health).toBe(100);
-  expect(character.level).toBe(1);
+test('Creation completed successfully', () => {
+  const undead = new Undead('Hero');
+  const character = {
+    name: 'Hero',
+    type: 'Undead',
+    attack: 25,
+    defence: 25,
+    health: 100,
+    level: 1,
+  };
+  expect(undead).toEqual(character);
 });

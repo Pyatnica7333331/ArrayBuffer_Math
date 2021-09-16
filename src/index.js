@@ -1,5 +1,6 @@
 /* eslint-disable import/no-unresolved */
-import './css/style.css';
+import './style.css';
+
 import './js/Characters/Character';
 import './js/Characters/Bowman';
 import './js/Characters/Swordsman';
