@@ -16,7 +16,7 @@ module.exports = {
     compress: true,
   },
   module: {
-    loader: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,

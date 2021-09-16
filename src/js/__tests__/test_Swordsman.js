@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import Swordsman from '../Characters/Swordsman';
 
-test('Creation completed successfully', () => {
+test('Creation completed wrong', () => {
   const swordsman = new Swordsman('Hero');
   const character = {
     name: 'Hero',
